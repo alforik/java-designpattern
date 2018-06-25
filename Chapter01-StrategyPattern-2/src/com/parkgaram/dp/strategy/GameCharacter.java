@@ -11,7 +11,7 @@ public class GameCharacter {
 		return weapon.doAttact();
 	}
 
-	public void setWeapon(Weapon weapon) {
+	public void setWeapon(Weapon weapon) { // 이부분이 중요하구나.. // 생성자네..
 		this.weapon = weapon;
 	}
 
